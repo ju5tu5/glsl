@@ -1,0 +1,9 @@
+/* Reset by https://jgthms.com/minireset.css/ */
+@import url('https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css');
+
+:root {
+  --bgcolor: #ffe6f2;
+  --fgcolor: #0042d0;
+  --hlcolor: red;
+  --termcolor: #424242ca;
+}
