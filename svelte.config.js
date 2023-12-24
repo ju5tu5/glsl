@@ -10,8 +10,9 @@ const config = {
       base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
     },
   },
+  ssr: {
+    noExternal: ['three'],
+  },
 }
-
-console.log('Building with base:' + config.kit.paths.base)
 
 export default config
